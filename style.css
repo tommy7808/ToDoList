@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+div, form {
+    border: 1px solid black;
+    margin: 15px;
+}
+#container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+#header button {
+    align-self: flex-end;
+}
